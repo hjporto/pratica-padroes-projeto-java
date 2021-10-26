@@ -1,0 +1,17 @@
+/*****Pratica de projeto Patterns DIO por Hugo Porto*****/
+package one.digitalinnovation.gof.strategy;
+
+public class ComportamentoDefensivo implements Comportamento {
+
+	@Override
+	public void mover() {
+		System.out.println("Movendo-se defensivamente...");
+	}
+
+	@Override
+	public void descancar() {
+		System.out.println("Parado e respirando...");
+		
+	}
+
+}
